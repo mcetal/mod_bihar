@@ -1,0 +1,6 @@
+makefile*
+mod_bih
+mod_bih.atools
+Release/
+.DS_Store
+*.m
