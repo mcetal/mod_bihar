@@ -111,7 +111,7 @@ C
          ymin = min(ymin,dimag(z(i)))
          ymax = max(ymax,dimag(z(i)))
       end do
-      write(IW,1400) (Z(1), C(1))
+      write(IW,1400) Z(1),C(1)
 ccc      write (iw,1400) x(1),y(1)
       WRITE(IW,*) '];'
       if (nbod.eq.k) then
